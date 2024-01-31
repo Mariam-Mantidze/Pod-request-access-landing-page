@@ -110,3 +110,50 @@ button {
   line-height: 28px; /* 200% */
   cursor: pointer;
 }
+#dots-pattern {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  body {
+    background: #121725;
+    padding: 50px 0 262px 50px;
+  }
+  header {
+    justify-content: flex-start;
+  }
+  .main-img {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+
+  main {
+    background: #121725;
+    align-items: flex-start;
+    width: 65%;
+  }
+
+  .text-container {
+    padding: 93px 10px 0 0;
+  }
+
+  .text-container h1,
+  .text-container p {
+    text-align: start;
+  }
+  .text-container h1 {
+    font-size: 48px;
+    line-height: 56px; /* 116.667% */
+    width: 635px;
+  }
+
+  .text-container p {
+    width: 445px;
+    font-size: 18px;
+    line-height: 28px; /* 155.556% */
+    margin-top: 31px;
+  }
+}
