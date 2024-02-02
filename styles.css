@@ -255,17 +255,27 @@ button:hover {
     padding: 102px 0 130px 165px;
   }
   .text-container {
-    padding: 88px 0 0 0;
+    margin-top: 88px;
+    padding: 0;
   }
   main {
     width: 723px;
+    margin-top: 103px;
+  }
+  .main-img {
+    margin-top: 117px;
   }
 
   .text-container h1 {
     width: 665px;
     font-family: Chivo;
     font-size: 52px;
+  }
+  .text-container p {
     margin-top: 24px;
+  }
+  .button-container form {
+    margin-top: 40px;
   }
   #dots-pattern {
     position: absolute;
