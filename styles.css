@@ -5,6 +5,9 @@
   font-family: "Chivo", sans-serif;
 }
 
+#error {
+  display: none;
+}
 .main-img {
   display: none;
 }
@@ -78,22 +81,28 @@ span {
 }
 
 input {
+  padding-left: 32px;
   width: 327px;
   height: 46px;
   border-radius: 28px;
   background: #2c344b;
   border: none;
-}
-
-input::placeholder {
-  opacity: 0.5;
-  padding-left: 32px;
   color: #fff;
   font-family: Chivo;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px; /* 200% */
+}
+
+input::placeholder {
+  opacity: 0.5;
+  color: #fff;
+  font-family: Chivo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
 }
 
 button {
@@ -199,6 +208,10 @@ button:hover {
   .button-container form {
     flex-direction: row;
   }
+  #form {
+    display: flex;
+    flex-direction: column;
+  }
 
   input {
     width: 427px;
@@ -210,7 +223,7 @@ button:hover {
   button {
     position: absolute;
     right: 23%;
-    top: 9%;
+    top: 6%;
     padding: 9px 27px;
     box-shadow: none;
   }

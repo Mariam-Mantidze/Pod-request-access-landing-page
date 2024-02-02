@@ -68,8 +68,13 @@
         </div>
 
         <div class="button-container">
-          <form action="submit">
-            <input class type="email" placeholder="Email address" />
+          <form id="form" name="form" novalidate>
+            <input type="email" placeholder="Email address" />
+            <p
+              id="error"
+              style="color: #fb3e3e; font-size: 12px; margin-left: 32px">
+              Oops! Please check your email
+            </p>
             <button type="submit">Request Access</button>
           </form>
         </div>
