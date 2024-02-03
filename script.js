@@ -11,7 +11,9 @@ form.addEventListener("submit", (event) => {
   if (!emailRegex.test(input.value)) {
     event.preventDefault();
     errorMessage.style.display = "block";
+    button.style.top = "6%";
   } else {
     errorMessage.style.display = "";
+    button.style.top = "";
   }
 });

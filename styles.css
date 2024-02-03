@@ -98,7 +98,7 @@ input {
 input::placeholder {
   opacity: 0.5;
   color: #fff;
-  font-family: Chivo;
+  font-family: "Chivo", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -223,7 +223,7 @@ button:hover {
   button {
     position: absolute;
     right: 23%;
-    top: 6%;
+    top: 9%;
     padding: 9px 27px;
     box-shadow: none;
   }
