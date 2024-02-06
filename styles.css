@@ -254,8 +254,9 @@ button:hover {
     height: 26px;
   }
   #dots-pattern {
+    position: relative;
     display: block;
-    margin-top: 143px;
+    margin-top: 150px;
   }
 }
 
@@ -287,6 +288,8 @@ button:hover {
     margin-top: 40px;
   }
   #dots-pattern {
-    visibility: hidden;
+    position: absolute;
+    margin-top: -50px;
+    right: 0;
   }
 }
