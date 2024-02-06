@@ -197,6 +197,7 @@ button:hover {
   }
 
   .flex-group {
+    position: relative;
     display: flex;
     flex-direction: column;
   }
@@ -254,12 +255,7 @@ button:hover {
   }
   #dots-pattern {
     display: block;
-    position: absolute;
-    bottom: 0;
-    top: 920px;
-
-    /* margin-top: 153px;
-    margin-left: -10px; */
+    margin-top: 143px;
   }
 }
 
@@ -267,6 +263,7 @@ button:hover {
   body {
     padding: 102px 0 130px 165px;
   }
+
   .text-container {
     margin-top: 88px;
     padding: 0;
@@ -281,7 +278,6 @@ button:hover {
 
   .text-container h1 {
     width: 665px;
-    font-family: Chivo;
     font-size: 52px;
   }
   .text-container p {
@@ -291,8 +287,6 @@ button:hover {
     margin-top: 40px;
   }
   #dots-pattern {
-    position: absolute;
-    right: 0;
-    bottom: 78px;
+    visibility: hidden;
   }
 }
